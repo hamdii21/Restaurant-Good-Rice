@@ -1,0 +1,57 @@
+
+
+header{
+    background-color: orangered;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+   
+    width: 100%;
+    height: 100%;
+}
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-right: 200px;     
+}
+a{
+    text-decoration: none;
+    cursor: pointer;  
+}
+nav a
+{
+    font-size: 1.3em;
+    color: white;
+    padding: 10px;        
+}
+.logo{
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    margin-left: 200px;
+    font-size: 10px;
+    background-color: darkgray;
+    
+}
+
+.image{
+   
+    width: 100%;
+   height:110vh;
+   background: url(/img/page.jpg); 
+   background-size: cover;
+   position: relative;  
+}
+.Good{
+    position: absolute;
+    font-weight: bold;
+    font-size: 96px;
+    align-items: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
