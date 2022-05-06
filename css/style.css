@@ -1,43 +1,50 @@
 
 
 header{
+    border: 1px solid black;
     background-color: orangered;
     display: flex;
     justify-content: space-between;
-    text-align: center;
-   
     width: 100%;
-    height: 100%;
+    height: 92,24px;
+    padding: 15px;
 }
 nav ul
 {
     list-style-type: none;
     display: flex;
     align-items: center;
-    margin-right: 200px;     
-}
-a{
-    text-decoration: none;
-    cursor: pointer;  
+    margin-right: 150px;     
 }
 nav a
 {
+    text-decoration: none;
+    cursor: pointer;  
     font-size: 1.3em;
-    color: white;
-    padding: 10px;        
+    color: white;      
+}
+nav li {
+    margin-right: 20px;
 }
 .logo{
-    border: 1px solid black;
-    border-radius: 50%;
-    width: 55px;
-    height: 55px;
-    text-align: center;
-    margin-left: 200px;
-    font-size: 10px;
-    background-color: darkgray;
-    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 150px;
 }
-
+span{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgray;
+    border: 1px solid solid;
+    border-radius: 50%;
+    padding-left: 7px;
+    font-size: 15px;
+    color: white;
+}
 .image{
    
     width: 100%;
@@ -46,12 +53,199 @@ nav a
    background-size: cover;
    position: relative;  
 }
-.Good{
-    position: absolute;
+ .Good{
+display: flex;
+justify-content: center;
     font-weight: bold;
     font-size: 96px;
     align-items: center;
     color: white;
     font-family: 'Times New Roman', Times, serif;
+    margin-left: 650px;
+   
 }
+.bouton{
+    border: 1px solid black;
+    width: 260px;
+    height: 50px;
+    background-color: orangered;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    margin-top: 800px;
+    margin-right: 800px;
+    font-size: 32px;
+   font-weight: bold;
+   
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 250px;
+}
+.border{
+    border: 3px solid black;
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-bottom: 70px;
+
+    border-radius: 5%;
+    margin-top: 80px;
+    padding: 5px;
+}
+.restaurant{
+  text-align: center;
+    color: orangered;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.propose{
+    text-align: center;
+    margin-right: 60px;
+   font-size: 25px; 
+   padding-left: 100px;
+
+}
+.propose1{
+    margin-right: 60px;
+   font-size: 30px; 
+   margin-left: 67px; 
+   padding-top:20px;
+}
+
+.Entrée{
+    
+    margin-left: 70px;
+    margin-right: 300px;
+   font-size: 30px;
+    padding: 10px;
+}
+.entré{
+    text-align: center;
+    margin-left: 300px;
+    font-size: 40px;
+}
+.plat{
+    
+    margin-left: 70px;
+    margin-right: 300px;
+   font-size: 30px;
+    padding: 10px;
+}
+.plat1{
+    text-align: center;
+    margin-left: 300px;
+    font-size: 40px;
+}
+.dessert{
+    
+    margin-left: 70px;
+    margin-right: 300px;
+   font-size: 30px;
+    padding: 10px;
+}
+.dessert1{
+    text-align: center;
+    margin-left: 300px;
+    font-size: 40px;
+}
+.prix{
+    
+    align-items: center;
+    color: orangered;
+    margin-left: 400px;
+    margin-right: 300px;
+}
+.service{
+    text-align: center;
+    margin-right: 60px;
+   font-size: 30px;
+   padding-bottom: 20px;
+   
+}
+.menu{
+    border: 1px solid black;
+   
+}
+.etape1{
+    display: flex;
+    justify-content: space-around;
+}
+.etape2{
+    display: flex;
+    justify-content: space-around;
+}
+.etape3{
+    display: flex;
+    justify-content: space-around;
+}
+.etape4{
+    display: flex;
+    justify-content: space-around;
+}
+.croquette-image img{
+    width: 300px;
+    height: 185px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+
+.croquette-image h3{
+   text-align: center;
+}
+.croquette{
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.galette-image img{
+    width: 300px;
+    height: 185px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+.galette-image h3{
+    text-align: center;
+ }
+ .galette{
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.boulette-image img{
+    width: 300px;
+    height: 185px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+.boulette-image h3{
+    text-align: center;
+ }
+ .boulette{
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.image-riz img{
+    width: 300px;
+    height: 185px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+.image-riz h3{
+    text-align: center;
+ }
+ .riz{
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-right: 45px;
+    height: 250px;
+    width: 300px;
+    margin-top: 20px;
+}
+
 
