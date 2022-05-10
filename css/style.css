@@ -1,38 +1,40 @@
-
 /* partie header*/
-header{
+header {
     border: 1px solid black;
     background-color: orangered;
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 92,24px;
+    height: 92, 24px;
     padding: 15px;
 }
-nav ul
-{
+
+nav ul {
     list-style-type: none;
     display: flex;
     align-items: center;
-    margin-right: 150px;     
+    margin-right: 150px;
 }
-nav a
-{
+
+nav a {
     text-decoration: none;
-    cursor: pointer;  
+    cursor: pointer;
     font-size: 1.3em;
-    color: white;      
+    color: white;
 }
+
 nav li {
     margin-right: 20px;
 }
-.logo{
+
+.logo {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-left: 150px;
 }
-span{
+
+span {
     display: flex;
     width: 50px;
     height: 50px;
@@ -45,31 +47,30 @@ span{
     font-size: 15px;
     color: white;
 }
-.image{
-   
+
+.image {
+
     width: 100%;
-   height:110vh;
-   background: url(/img/page.jpg); 
-   background-size: cover;
-   position: relative;  
+    height: 110vh;
+    background: url(/img/page.jpg);
+    background-size: cover;
+    position: relative;
 }
- .Good{
-display: flex;
-justify-content: center;
+
+.Good {
+    display: flex;
+    text-align: center;
     font-weight: bold;
-    font-size: 96px;
-    align-items: center;
+    font-size: 60px;
     color: white;
     font-family: 'Times New Roman', Times, serif;
-    margin-left: 650px;
    
 }
-.bouton{
+.bouton {
     border: 1px solid black;
     width: 260px;
     height: 50px;
     background-color: orangered;
-    color: white;
     border-radius: 20px;
     text-align: center;
     padding-top: 30px;
@@ -77,361 +78,446 @@ justify-content: center;
     margin-top: 800px;
     margin-right: 800px;
     font-size: 32px;
-   font-weight: bold;
+    font-weight: bold;  
 }
-.center{
+.bouton a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+.center {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 250px;
 }
-.section{
+
+.section {
     background-color: #FFFBFA;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
-.border{
+
+.border {
     border: 3px solid black;
     margin-left: 600px;
     margin-right: 600px;
-    margin-bottom: 70px;
+    margin-bottom: 30px;
     border-radius: 5%;
-    margin-top: 80px;
-    padding: 5px;
+    margin-top: 30px;
+
 }
-.restaurant{
-  text-align: center;
+
+.restaurant {
+    text-align: center;
     color: orangered;
     margin-left: 300px;
     margin-right: 300px;
 }
-.propose{
+
+.propose {
     text-align: center;
     margin-right: 60px;
-   font-size: 25px; 
-   padding-left: 100px;
+    font-size: 25px;
+    padding-left: 100px;
 
 }
-.propose1{
+
+.propose1 {
     margin-right: 60px;
-   font-size: 30px; 
-   margin-left: 67px; 
-   padding-top:20px;
+    font-size: 30px;
+    margin-left: 67px;
+    padding-top: 20px;
 }
+
 /* partie enté */
-.Entrée{
-    
+.Entrée {
+
     margin-left: 70px;
     margin-right: 300px;
-   font-size: 30px;
+    font-size: 30px;
     padding: 10px;
 }
-.entré{
+
+.entré {
     text-align: center;
     margin-left: 300px;
     font-size: 40px;
 }
+
 /* partie plat */
-.plat{
-    
+.plat {
+
     margin-left: 70px;
     margin-right: 300px;
-   font-size: 30px;
+    font-size: 30px;
     padding: 10px;
 }
-.plat1{
+
+.plat1 {
     text-align: center;
     margin-left: 300px;
     font-size: 40px;
 }
+
 /* partie dessert*/
-.dessert{
-    
+.dessert {
+
     margin-left: 70px;
     margin-right: 300px;
-   font-size: 30px;
+    font-size: 30px;
     padding: 10px;
 }
-.dessert1{
+
+.dessert1 {
     text-align: center;
     margin-left: 300px;
     font-size: 40px;
 }
-.prix{
-    
-    align-items: center;
+
+.prix {
+
+    text-align: center;
     color: orangered;
-    margin-left: 400px;
-    margin-right: 300px;
+    font-size: 25px;
+
 }
-.services{
+
+.services {
     text-align: center;
-    margin-right: 60px;
-   font-size: 30px;
+    font-size: 30px;
+    padding-bottom: 20px;
 
 
 }
+
 /* partie menu */
-.menu{
-    border: 1px solid black;
+.menu {
     background-color: #FFFBFA;
-    padding-bottom: 50px;
-   
+    padding-bottom: 60px;
+
 }
-.etape1{
+
+.etape1 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
-.etape2{
+
+.etape2 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
-.etape3{
+
+.etape3 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
-.etape4{
+
+.etape4 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
+
 /* partie croquette*/
-.croquette-image img{
+.croquette-image img {
     width: 300px;
     height: 185px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
-.croquette-image h3{
-   text-align: center;
+
+.croquette-image h3 {
+    text-align: center;
 }
-.croquette{
-    border: 2px solid black;
+
+.croquette {
+    box-shadow: 5px 5px 5px 5px whitesmoke;
     border-radius: 20px;
 }
+
 /* partie galette*/
-.galette-image img{
+.galette-image img {
     width: 300px;
     height: 185px;
     border-top-left-radius: 20px;
-    border-top-right-radius: 20px;  
+    border-top-right-radius: 20px;
 }
-.galette-image h3{
+
+.galette-image h3 {
     text-align: center;
- }
- .galette{
-    border: 2px solid black;
+}
+
+.galette {
+    box-shadow: 5px 5px 5px 5px whitesmoke;
     border-radius: 20px;
 }
+
 /* partie boulette*/
-.boulette-image img{
+.boulette-image img {
     width: 300px;
     height: 185px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
-.boulette-image h3{
+
+.boulette-image h3 {
     text-align: center;
- }
- .boulette{
-    border: 2px solid black;
+}
+
+.boulette {
+    box-shadow: 5px 5px 5px 5px whitesmoke;
     border-radius: 20px;
 }
+
 /* partie riz*/
-.riz-image img{
+.riz-image img {
     width: 300px;
     height: 185px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
-.riz-image h3{
+
+.riz-image h3 {
     text-align: center;
- }
- .riz{
-    border: 2px solid black;
+}
+
+.riz {
+    box-shadow: 5px 5px 5px 5px whitesmoke;
     border-radius: 20px;
     height: 250px;
     width: 300px;
     margin-top: 20px;
 }
+
 /* partie crevette*/
-.crevette-image img{
+.crevette-image img {
     width: 297px;
     height: 185px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    
+
 }
-.crevette-image h3{
+
+.crevette-image h3 {
     text-align: center;
- }
- .crevette{
-    border: 2px solid black;
+}
+
+.crevette {
+    box-shadow: 5px 5px 5px 5px whitesmoke;
     border-radius: 20px;
     height: 250px;
     width: 300px;
     margin-top: 20px;
+    margin-left: 20px;
 }
+
 /* partie ayimolou */
-.ayimolou-image img{
+.ayimolou-image img {
     width: 300px;
     height: 185px;
     border-top-left-radius: 20px;
-    border-top-right-radius: 20px;   
+    border-top-right-radius: 20px;
 }
-.ayimolou-image h3{
+
+.ayimolou-image h3 {
     text-align: center;
- }
- .ayimolou{
-    border: 2px solid black;
+}
+
+.ayimolou {
+    box-shadow: 5px 5px 5px 5px whitesmoke;
     border-radius: 20px;
     margin-right: 20px;
     height: 250px;
     width: 300px;
     margin-top: 20px;
+    margin-left: 23px;
 }
+
 /* partie crepe */
-.crepe-image img{
+.crepe-image img {
     width: 300px;
     height: 185px;
     border-top-left-radius: 20px;
-    border-top-right-radius: 20px;   
+    border-top-right-radius: 20px;
 }
-.crepe-image h3{
+
+.crepe-image h3 {
     text-align: center;
- }
- .crepe{
-    border: 2px solid black;
+}
+
+.crepe {
+    box-shadow: 5px 5px 5px 5px whitesmoke;
     border-radius: 20px;
 
     height: 250px;
     width: 300px;
     margin-top: 20px;
 }
+
 /*jus d'annanas*/
-.annanas-image img{
+.annanas-image img {
     width: 300px;
     height: 185px;
     border-top-left-radius: 20px;
-    border-top-right-radius: 20px;   
+    border-top-right-radius: 20px;
 }
-.annanas-image h3{
-    text-align: center;
- }
- .annanas{
-    border: 2px solid black;
-    border-radius: 20px;
 
-    height: 250px;
-    width: 300px;
-    margin-top: 20px;
-}
-/*jus de fruit*/
-.fruit-image img{
-    width: 300px;
-    height: 185px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;   
-}
-.fruit-image h3{
+.annanas-image h3 {
     text-align: center;
- }
- .fruit{
-    border: 2px solid black;
+}
+
+.annanas {
+    box-shadow: 5px 5px 5px 5px whitesmoke;
     border-radius: 20px;
     height: 250px;
     width: 300px;
     margin-top: 20px;
 }
+
+/*jus de fruit*/
+.fruit-image img {
+    width: 300px;
+    height: 185px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.fruit-image h3 {
+    text-align: center;
+}
+
+.fruit {
+    box-shadow: 5px 5px 5px 5px whitesmoke;
+    border-radius: 20px;
+    height: 250px;
+    width: 300px;
+    margin-top: 20px;
+}
+
 /*partie localisation*/
-.localisation{
-    border: 1px solid black;
-    padding-top: 5px;
+.localisation {
+    padding-bottom: 40px;
+    border: 1px solid white;
 }
-.localisation1{
+
+.localisation1 {
     display: flex;
     justify-content: center;
 }
-.localisation h5{
+
+.localisation h5 {
     display: flex;
     justify-content: center;
-    font-size: 32px;
+    font-size: 30px;
+
 }
+
 /* partie partenaire*/
-.partenaire{
+.partenaire {
+    border: 1px solid white;
     background-color: #FFFBFA;
     box-shadow: 6px;
 
+    box-shadow: 5px 5px 5px 5px whitesmoke;
 }
-.partenaire h4{
+
+.partenaire h4 {
     text-align: center;
     font-size: 32px;
 }
-.partenaire p{
+
+.partenaire p {
     text-align: center;
     font-size: 24px;
-} 
-.partenaire1{
+}
+
+.partenaire1 {
     display: flex;
     justify-content: space-around;
 }
-.logo2{
+
+.logo2 {
     height: 180px;
     width: 180px;
 }
-.logo3{
+
+.logo3 {
     height: 180px;
     width: 180px;
 }
-.logo1{
+
+.logo1 {
     height: 270px;
     width: 233px;
 }
+
 /* partie formulaire */
-.formulaire{
+.formulaire {
     margin-left: 800px;
+    padding-top: 25px;
+
 }
+
 form div {
     display: flex;
     flex-direction: column;
-   width: 50%;
+    width: 50%;
 }
-form div > label{
+
+form div>label {
     padding-bottom: 7px;
-    
+
 }
-form div >input, form div >textarea{
+
+form div>input,
+form div>textarea {
     background-color: #FFFBFA;
+    border: 2px solid black;
 }
-form div >input{
-    height:40px ;
+
+form div>input {
+    height: 40px;
+    box-shadow: 5px 5px 5px 5px whitesmoke;
 }
-form div >textarea{
+
+form div>textarea {
     height: 200px;
+    border: 2px solid black;
+     box-shadow: 5px 5px 5px 5px whitesmoke;
 }
-form button{
+
+form button {
     margin-top: 20px;
     width: 30%;
     height: 40px;
     display: flex;
     justify-content: center;
     background-color: #FFFBFA;
-    border-radius:10px ;
+    border-radius: 10px;
     align-items: center;
     margin-left: 250px;
 }
+
 /* partie témoignage */
-.témoignage-section h4{
+.témoignage-section h4 {
     text-align: center;
     color: orangered;
     font-size: 32px;
 }
-.témoignage{
+
+.témoignage {
     display: flex;
     justify-content: space-around;
 }
-.témoignage1{
-    border: 1px solid black;
+
+.témoignage1 {
+    border: 1px solid white;
     width: 370px;
     height: 250px;
+    box-shadow: 5px 5px 5px 5px whitesmoke;
 }
+
 .nom1 {
     background-color: orangered;
     height: 40px;
@@ -439,15 +525,19 @@ form button{
     padding-left: 10px;
     font-size: 24px;
 }
-.text1{
+
+.text1 {
     padding-left: 10px;
     font-size: 24px;
 }
-.témoignage2{
-    border: 1px solid black;
+
+.témoignage2 {
+    border: 1px solid white;
     width: 370px;
     height: 250px;
+    box-shadow: 5px 5px 5px 5px whitesmoke;
 }
+
 .nom2 {
     background-color: orangered;
     height: 40px;
@@ -455,15 +545,19 @@ form button{
     padding-left: 10px;
     font-size: 24px;
 }
-.text2{
+
+.text2 {
     padding-left: 10px;
     font-size: 24px;
 }
-.témoignage3{
-    border: 1px solid black;
+
+.témoignage3 {
+    border: 1px solid white;
     width: 370px;
     height: 250px;
+    box-shadow: 5px 5px 5px 5px whitesmoke;
 }
+
 .nom3 {
     background-color: orangered;
     height: 40px;
@@ -471,21 +565,33 @@ form button{
     padding-left: 10px;
     font-size: 24px;
 }
-.text3{
+
+.text3 {
     padding-left: 10px;
     font-size: 24px;
 }
+
+
+
 /* partie footer */
-.pied{
+.pied {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
-    background-color:  #545050;
+    background-color: #545050;
     color: white;
 }
-.suivez{
+
+.suivez {
     margin-left: 50px;
 }
-.address{
+.suivez a{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.3em;
+   color: yellow;
+}
+
+.address {
     margin-right: 50px;
 }
