@@ -10,7 +10,7 @@ header {
     background-color: orangered;
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 107%;
     height: 92, 24px;
     padding: 15px;
 }
@@ -105,15 +105,16 @@ span {
     background-color: #FFFBFA;
     padding-bottom: 20px;
     padding-top: 20px;
+   
 }
 /*partie synthaxe*/
 .border{
     text-align: center;
     border: 3px solid black;
     border-radius: 5%;
-   width: 30%;
-   margin-left: 35%;
-   margin-right: 35%;
+   width: 26%;
+   margin-left: 37%;
+   margin-right: 37%;
    padding-top: 10px;
    padding-bottom: 10px;
    margin-top: 30px;
@@ -121,25 +122,25 @@ span {
 }
 
 .entré1 {
-   margin-right: 40%;
+   margin-right: 46%;
 }
 .entré2{
-    margin-right: 45%;
+    margin-right: 52%;
 }
 .entré3{
-    margin-right: 45%; 
+    margin-right: 51%; 
 }
 .plat2{
-    margin-right: 28%;
+    margin-right: 33%;
 }
 .dessert2{
-    margin-right: 49%;  
+    margin-right: 56%;  
 }
 .dessert3{
-    margin-right: 49%;  
+    margin-right: 56%;  
 }
 .dessert4{
-    margin-right: 53%;  
+    margin-right: 60%;  
 }
 .propose{
     color: orangered;
@@ -170,12 +171,6 @@ span {
     display: flex;
     justify-content: space-evenly;
 }
-
-.etape4 {
-    display: flex;
-    justify-content: space-evenly;
-}
-
 /* partie croquette*/
 .croquette-image img {
     width: 300px;
@@ -357,13 +352,13 @@ span {
 .localisation {
     padding-bottom: 40px;
     border: 1px solid white;
+    box-shadow: 10px 710x 10px 10px whitesmoke;
 }
 
 .localisation1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 5px 5px 5px 5px whitesmoke;
 } 
 
 .localisation h5 {
@@ -521,6 +516,7 @@ form button {
     background-color: #545050;
     color: white;
     font-size: 26px;
+    
 }
 .suivez {
     text-align: center;
@@ -532,8 +528,15 @@ form button {
 .address {
     margin-right: 50px;
 }
-@media all and (max-width: 1090px)
+
+
+@media all and (max-width: 820px)
 {
+    /*partie header*/
+    header{
+            width: 67vh;
+            height: 92, 24px;
+    }
     nav{
         margin: auto;
         text-align: left;
@@ -547,28 +550,14 @@ form button {
    nav a:hover{
     color: black;
    }
-   .image{
-    width: 100%;
-    height: 55vh;
-    background-size: cover; 
-   }
+   /*partie après header*/
    .border{
        width: 50%;
        margin-left: 25%;
    }
-}
-@media all and (max-width: 1600px)
-{
-    .border{
-        width: 50%;
-        margin-left: 25%;
-    }
-}
-@media all and (max-width: 820px)
-{
     .image{
-        width: 80vh;
-        height:45vh;
+        width: 70vh;
+        height:40vh;
         background-size: cover; 
         position: relative;
        } 
@@ -590,28 +579,29 @@ form button {
     .border{
         width: 60%;
         margin-left:18%;
+        padding: 20px;
     }
-    
+    /*partie menu*/
     .entré1 {
-        margin-right: 54%;
+        margin-right: 57%;
      }
      .entré2{
-         margin-right: 62%;
+         margin-right: 65%;
      }
      .entré3{
-         margin-right: 61%; 
+         margin-right: 64%; 
      }
      .plat2{
-         margin-right: 38%;
+         margin-right: 40%;
      }
      .dessert2{
-         margin-right: 65%;  
+         margin-right: 69%;  
      }
      .dessert3{
-         margin-right: 67%;  
+         margin-right: 71%;  
      }
      .dessert4{
-         margin-right: 73%;  
+         margin-right: 77%;  
      }
        .etape1 {
         flex-wrap: wrap;
@@ -631,6 +621,7 @@ form button {
     font-size: 20px;
 
 }
+/*partenaire*/
     .partenaire h4 {
         text-align: center;
         font-size: 20px;
@@ -647,8 +638,10 @@ form button {
     height: 150px;
     width: 150px;
 }
+/*formulaire*/
 .formulaire{
-    margin-left: 27%;
+   position: relative;
+   right:8%;
 }
 .formulaire h2{
     font-size: 17px;
@@ -671,14 +664,17 @@ form button {
     width: 17vh;
     height: 50px;
     font-size: 15px;
-    margin-left: 38%;
+   position: relative;
+right: 25%;
 }
+/*témoignage*/
 .témoignage {
     flex-wrap: wrap;
 }
 .témoignage3{
     margin-top: 20px;
 }
+/*footer*/
 .pied{
     flex-wrap: wrap;
     font-size: 15px;
@@ -698,54 +694,123 @@ form button {
 @media all and (max-width: 375px)
 {
 header {
-    width: 77vh;
+    width: 100vh;
     height: 92, 24px;
 } 
+.image{
+    width: 80vh;
+    height:45vh;
+    background-size: cover; 
+    position: relative;
+  } 
+  /*partie menu*/
 .border{
-    width: 50vh;
-    margin-left:35%;
+    width: 100vh;
+    position: relative;
+}
+.section{
+    background-color: #FFFBFA;
+    width: 80vh;
 }
 .entré1 {
-    margin-right: 50%;
+    margin-right: 54%;
  }
  .entré2{
-     margin-right: 57%;
+     margin-right: 61%;
  }
  .entré3{
-     margin-right: 57%; 
+     margin-right: 61%; 
  }
  .plat2{
-     margin-right: 35%;
+     margin-right: 37%;
  }
  .dessert2{
-     margin-right: 60%;  
+     margin-right: 65%;  
  }
  .dessert3{
-     margin-right: 62%;  
- }
- .dessert4{
      margin-right: 67%;  
  }
+ .dessert4{
+     margin-right: 72%;  
+ }
  .menu{
-     margin-left:100% ;
+     width: 80vh;
+     background-color: #FFFBFA;
+    padding-bottom: 60px; 
  }
-
- .localisation h5{
-  margin-left: 100%;
-  font-size: 20px;
+ /*partie localisation*/
+ .localisation{
+     box-shadow: 7px 7px 7px 7px whitesmoke;
+     width: 80vh;
  }
- .ifram {
-    width: 597px;
+ .localisation1{
+    width: 641.5px;
     position: relative;
-    right: 55px;
-}
- .partenaire h4 {
-    text-align: center;
-    font-size: 32px;
+    left: 55px;
+ }
+ .localisation h5{
+ position: relative;
+  font-size: 15px;
+
+ }
+ /*partie partenaire*/
+ .partenaire{
+     position: relative;
+     background-color: #FFFBFA;
+     width: 80vh;
 }
 .partenaire p {
     text-align: center;
-    font-size: 24px;
+    font: size 3.5erm;;
+}
+/*partie formulaire*/
+.formulaire{
+    position: relative;
+    left:100%;
+
+ }
+ .formulaire h2{
+     font-size: 15px;
+ }
+ .formulaire p{
+    font-size: 15px;
+ } 
+ form button {
+     font-size: 15px;
+    position: relative;
+   left: -65%;  
+ }
+ /* partie témoignage*/
+ .témoignage {
+ position: relative;
+ left: 45%;
+}
+.témoignage3{
+    margin-top: 20px;
+}
+.témoignage2{
+    margin-top: 20px;
+}
+.témoignage-section h4{
+    font-size: 25px;
+ left: 45%;
+ position: relative;
+}
+/*partie footer*/
+.pied{
+   width: 200%;
+    font-size: 15px;
+    padding: 5px;
+    
+}
+.service{
+    padding-right: 1px;
+}
+.compagnie{
+    padding-right: 1px;
+}
+.address{
+    padding-right: 1px;
 }
 
 }
