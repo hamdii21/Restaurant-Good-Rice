@@ -1,8 +1,9 @@
 /* partie header*/
 @import url('https://fonts.googleapis.com/css2?family=Oxygen+Mono&family=Roboto+Slab:wght@400;800&display=swap');
-body{
+*{
     font-family: 'Roboto Slab', serif;
-    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -10,8 +11,6 @@ header {
     background-color: orangered;
     display: flex;
     justify-content: space-between;
-    width: 107%;
-    height: 92, 24px;
     padding: 15px;
 }
 
@@ -20,6 +19,7 @@ nav ul {
     display: flex;
     align-items: center;
     margin-right: 150px;
+    padding-top: 10px;
 }
 nav a {
     text-decoration: none;
@@ -55,8 +55,8 @@ span {
 
 .image {
 
-    width: 196.8vh;
-    height: 110vh;
+    max-width: 100%;
+    height: 90vh;
     background: url('./../img/page.jpg');
     background-size: cover;
     position: relative;
@@ -80,7 +80,7 @@ span {
     text-align: center;
     align-items: center;
     position: absolute;
-    margin-top: 45%;
+    margin-top: 40%;
     margin-left: 45%;
     border: 1px solid black;
     width: 260px;
@@ -137,10 +137,10 @@ span {
     margin-right: 56%;  
 }
 .dessert3{
-    margin-right: 56%;  
+    margin-right: 58%;  
 }
 .dessert4{
-    margin-right: 60%;  
+    margin-right: 62%;  
 }
 .propose{
     color: orangered;
@@ -353,6 +353,7 @@ span {
     padding-bottom: 40px;
     border: 1px solid white;
     box-shadow: 10px 710x 10px 10px whitesmoke;
+    
 }
 
 .localisation1 {
@@ -365,6 +366,7 @@ span {
     display: flex;
     justify-content: center;
     font-size: 30px;
+    padding-top: 20px;
 
 }
 
@@ -377,10 +379,12 @@ span {
 .partenaire h4 {
     text-align: center;
     font-size: 32px;
+    padding-top: 20px;
 }
 .partenaire p {
     text-align: center;
     font-size: 24px;
+    padding-bottom: 35px;
 }
 .partenaire1 {
     display: flex;
@@ -401,8 +405,8 @@ span {
 /* partie formulaire */
 .formulaire {
     width: 30%;
-    margin-left: 35%;
-    margin-right: 35%;
+    margin-left: 40%;
+    margin-right: 40%;
     padding-top: 25px; 
 }
 form div {
@@ -452,6 +456,8 @@ form button {
     text-align: center;
     color: orangered;
     font-size: 32px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 .témoignage {
     display: flex;
@@ -516,6 +522,8 @@ form button {
     background-color: #545050;
     color: white;
     font-size: 26px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     
 }
 .suivez {
@@ -532,11 +540,7 @@ form button {
 
 @media all and (max-width: 820px)
 {
-    /*partie header*/
-    header{
-            width: 67vh;
-            height: 92, 24px;
-    }
+   
     nav{
         margin: auto;
         text-align: left;
@@ -551,26 +555,21 @@ form button {
     color: black;
    }
    /*partie après header*/
-   .border{
-       width: 50%;
-       margin-left: 25%;
+   .image{
+       height: 45vh;
+       width: auto;
    }
-    .image{
-        width: 70vh;
-        height:40vh;
-        background-size: cover; 
-        position: relative;
-       } 
+
     .Good {
         font-size: 35px;
-      margin-top: 17%;
+      margin-top: 25%;
       margin-left: 27%;
         position: absolute;
     }
     .bouton {
         position: absolute;
-        margin-top: 45%;
-        margin-left: 45%;
+        margin-top: 40%;
+        margin-left: 43%;
         height: 20px;
         width: 125px;
         font-size: 1rem;
@@ -583,25 +582,25 @@ form button {
     }
     /*partie menu*/
     .entré1 {
-        margin-right: 57%;
+        margin-right: 55%;
      }
      .entré2{
-         margin-right: 65%;
+         margin-right: 62%;
      }
      .entré3{
-         margin-right: 64%; 
+         margin-right: 61%; 
      }
      .plat2{
-         margin-right: 40%;
+         margin-right: 38%;
      }
      .dessert2{
-         margin-right: 69%;  
+         margin-right: 66%;  
      }
      .dessert3{
-         margin-right: 71%;  
+         margin-right: 68%;  
      }
      .dessert4{
-         margin-right: 77%;  
+         margin-right: 72%;  
      }
        .etape1 {
         flex-wrap: wrap;
@@ -641,13 +640,15 @@ form button {
 /*formulaire*/
 .formulaire{
    position: relative;
-   right:8%;
+   right:12%;
 }
 .formulaire h2{
     font-size: 17px;
+    padding-bottom: 10px;
 }
 .formulaire p{
    font-size: 15px;
+   padding-bottom: 10px;
 } 
 form div>input {
    width:30vh ;
@@ -665,7 +666,7 @@ form button {
     height: 50px;
     font-size: 15px;
    position: relative;
-right: 25%;
+right: 30%;
 }
 /*témoignage*/
 .témoignage {
@@ -691,48 +692,11 @@ right: 25%;
     padding-right: 1px;
 }
 }
-@media all and (max-width: 375px)
+@media all and (max-width: 720px)
 {
-header {
-    width: 100vh;
-    height: 92, 24px;
-} 
-.image{
-    width: 80vh;
-    height:45vh;
-    background-size: cover; 
-    position: relative;
-  } 
+
   /*partie menu*/
-.border{
-    width: 100vh;
-    position: relative;
-}
-.section{
-    background-color: #FFFBFA;
-    width: 80vh;
-}
-.entré1 {
-    margin-right: 54%;
- }
- .entré2{
-     margin-right: 61%;
- }
- .entré3{
-     margin-right: 61%; 
- }
- .plat2{
-     margin-right: 37%;
- }
- .dessert2{
-     margin-right: 65%;  
- }
- .dessert3{
-     margin-right: 67%;  
- }
- .dessert4{
-     margin-right: 72%;  
- }
+  
  .menu{
      width: 80vh;
      background-color: #FFFBFA;
@@ -766,7 +730,7 @@ header {
 /*partie formulaire*/
 .formulaire{
     position: relative;
-    left:100%;
+ 
 
  }
  .formulaire h2{
@@ -778,7 +742,8 @@ header {
  form button {
      font-size: 15px;
     position: relative;
-   left: -65%;  
+margin-right: auto;
+  
  }
  /* partie témoignage*/
  .témoignage {
