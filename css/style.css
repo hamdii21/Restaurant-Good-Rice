@@ -21,6 +21,9 @@ nav ul {
     margin-right: 150px;
     padding-top: 10px;
 }
+nav a:hover{
+    color: red;
+}
 nav a {
     text-decoration: none;
     cursor: pointer;
@@ -691,91 +694,4 @@ right: 30%;
 .address{
     padding-right: 1px;
 }
-}
-@media all and (max-width: 720px)
-{
-
-  /*partie menu*/
-  
- .menu{
-     width: 80vh;
-     background-color: #FFFBFA;
-    padding-bottom: 60px; 
- }
- /*partie localisation*/
- .localisation{
-     box-shadow: 7px 7px 7px 7px whitesmoke;
-     width: 80vh;
- }
- .localisation1{
-    width: 641.5px;
-    position: relative;
-    left: 55px;
- }
- .localisation h5{
- position: relative;
-  font-size: 15px;
-
- }
- /*partie partenaire*/
- .partenaire{
-     position: relative;
-     background-color: #FFFBFA;
-     width: 80vh;
-}
-.partenaire p {
-    text-align: center;
-    font: size 3.5erm;;
-}
-/*partie formulaire*/
-.formulaire{
-    position: relative;
- 
-
- }
- .formulaire h2{
-     font-size: 15px;
- }
- .formulaire p{
-    font-size: 15px;
- } 
- form button {
-     font-size: 15px;
-    position: relative;
-margin-right: auto;
-  
- }
- /* partie témoignage*/
- .témoignage {
- position: relative;
- left: 45%;
-}
-.témoignage3{
-    margin-top: 20px;
-}
-.témoignage2{
-    margin-top: 20px;
-}
-.témoignage-section h4{
-    font-size: 25px;
- left: 45%;
- position: relative;
-}
-/*partie footer*/
-.pied{
-   width: 200%;
-    font-size: 15px;
-    padding: 5px;
-    
-}
-.service{
-    padding-right: 1px;
-}
-.compagnie{
-    padding-right: 1px;
-}
-.address{
-    padding-right: 1px;
-}
-
 }
