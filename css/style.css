@@ -22,7 +22,7 @@ nav ul {
     padding-top: 10px;
 }
 nav a:hover{
-    color: red;
+    color:blue;
 }
 nav a {
     text-decoration: none;
@@ -82,15 +82,14 @@ nav li {
     display: flex;
     text-align: center;
     align-items: center;
-    position: absolute;
-    margin-top: 40%;
-    margin-left: 45%;
+    position: relative;
+    margin-top: 100%;
+    margin-left: 48%;
     border: 1px solid black;
     width: 260px;
     height: 50px;
     background-color: orangered;
     border-radius: 20px;
-    text-align: center;
     padding-top: 25px;
     padding-bottom: 25px;
     padding-left:25px ;
@@ -104,7 +103,7 @@ nav li {
 }
 /*partie synthaxe*/
 .section-menu{
-    background-color: #FFFBFA;
+    background-color: #f6f0ee;
 }
 .menu-section{
     width: 30%;
@@ -113,6 +112,7 @@ nav li {
     margin-right:auto;
     margin-top: 50px;
     margin-bottom: 50px;
+   
    
    
 }
@@ -314,7 +314,7 @@ nav li {
     border-radius: 20px;
     height: 250px;
     width: 300px;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 /*jus de fruit*/
@@ -334,7 +334,7 @@ nav li {
     border-radius: 20px;
     height: 250px;
     width: 300px;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 /*partie localisation*/
@@ -351,11 +351,12 @@ nav li {
     align-items: center;
 } 
 
-.localisation h5 {
+.localisation span {
     display: flex;
     justify-content: center;
     font-size: 30px;
     padding-top: 20px;
+    font-weight: 700;
 
 }
 
@@ -363,12 +364,13 @@ nav li {
 .partenaire {
     border: 1px solid white;
     background-color: #FFFBFA;
-    box-shadow: 7px 7px 7px 7px whitesmoke;
+    box-shadow: 0px 0px 5px 0px;
 }
-.partenaire h4 {
+.partenaire span {
     text-align: center;
     font-size: 32px;
     padding-top: 20px;
+    font-weight: 700;
 }
 .partenaire p {
     text-align: center;
@@ -393,8 +395,8 @@ nav li {
 }
 /* partie formulaire */
 .formulaire {
-    width: 30%;
-    margin-left: auto;
+    width: 100px;
+    margin-left:  auto;
     margin-right: auto;
     padding-top: 25px; 
 }
@@ -404,7 +406,7 @@ form div {
     width: 70%;
 }
 form div>label {
-    padding-bottom: 7px;
+    padding-bottom: 8px;
     font-size: 18px;
 }
 form div>input,
@@ -414,7 +416,6 @@ form div>textarea {
 }
 form div>input {
     height: 40px;
-   
     box-shadow: 5px 5px 5px 5px whitesmoke;
 }
 form div>textarea {
@@ -435,14 +436,16 @@ form button {
     margin-right: auto;
     font-size: 18px;
 }
-.formulaire h2{
+.formulaire span{
     font-size: 20px;
 }
 .formulaire p{
     font-size:18px ;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 /* partie témoignage */
-.section-temoignage h4 {
+.section-temoignage span {
     text-align: center;
     color: orangered;
     font-size: 32px;
@@ -528,13 +531,18 @@ form button {
 }
 /* partie media queri*/
 @media all and (max-width:1440px){
+    .image{
+        height: 75vh;
+        width: auto;
+    }
     .bouton {
         position: absolute;
         margin-top: 40%;
-        margin-left: 48%;
+        margin-left: 45%;
         height: 20px;
         width: 125px;
-        font-size: 0.9rem;
+        font-size: 1rem;
+        padding-right: 25px;
         
     } 
     .Good {
@@ -543,8 +551,122 @@ form button {
       margin-left: 27%;
         position: absolute;
 }
+.menu {
+    background-color: #FFFBFA;
+    padding-bottom: 60px;
+    padding-top: 50px;
 }
-@media all and (max-width: 820px)
+form div {
+    width: 100%;
+}
+.formulaire{
+    width: 50%;
+}
+
+.formulaire p{
+    font-size:15px ;
+   padding-top: 5px;
+   padding-bottom: 10px;
+    
+}
+}
+@media all and (max-width:1366px){
+    .image{
+        height: 95vh;
+    }
+    
+.Good {
+    font-size: 80px;
+  margin-top: 24%;
+  margin-left: 33%;
+    position: absolute;
+   
+}
+.menu {
+    background-color: #FFFBFA;;
+    padding-bottom: 60px;
+    padding-top: 50px;
+}
+.bouton {
+   
+    margin-top: 42%;
+    margin-left: 48%;
+    width: 160px;
+    height: 40px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left:30px ;
+    font-size: 20px;
+    font-weight: bold; 
+}
+.partenaire {
+    border: 1px solid white;
+    background-color: #FFFBFA;
+    box-shadow: 7px 7px 7px 7px whitesmoke;
+}
+form div>input,
+form div>textarea {
+    background-color: #FFFBFA;
+    border: 2px solid black;
+}
+} 
+
+
+@media all and ( max-width:1090px){
+    nav{
+        margin: auto;
+        text-align: left;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+   nav a{
+     font-size:1rem ;
+   }
+   nav a:hover{
+    color: black;
+}
+.image{
+    height: 60vh;
+    width: auto;
+}
+.partenaire span{
+    font-size: 20px;
+    font-weight: 700;
+}
+.partenaire p{
+    font-size: 15px;
+}
+.temoignage{
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.temoignage-trois{
+    margin-top: 25px;
+}
+.section-temoignage span{
+    font-size: 20px;
+    padding-top: 20Px;
+}
+.pied{
+    font-size: 1rem;
+}
+}
+
+@media all and  (max-width:1024px){
+    .image{
+        height: 65vh;
+    }
+    .bouton {
+        margin-top: 42%;
+        margin-left: 43%;
+        height: 20px;
+        width: 125px;
+        font-size: 1rem;
+        padding-right: 20px;
+    }
+} 
+@media all and (max-width: 840px)
 {
    
     nav{
@@ -562,7 +684,7 @@ form button {
    }
    /*partie après header*/
    .image{
-       height: 45vh;
+       height: 35vh;
        width: auto;
    }
 
@@ -594,20 +716,24 @@ form button {
         flex-wrap: wrap;
     }
     .boulette{
-        margin-top: 20px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .ayimolou{
+        margin-top: 25px;
+        margin-bottom: 25px; 
     }
     
-.localisation h5 {
+.localisation span {
     font-size: 20px;
 
 }
 /*partenaire*/
-    .partenaire h4 {
+    .partenaire span {
         text-align: center;
         font-size: 20px;
     }
     .partenaire p {
-        text-align: center;
         font-size: 15px;
     }
 .logo2 {
@@ -620,10 +746,9 @@ form button {
 }
 /*formulaire*/
 .formulaire{
-   position: relative;
-   right:12%;
+width: 50%;
 }
-.formulaire h2{
+.formulaire span{
     font-size: 17px;
     padding-bottom: 10px;
 }
@@ -631,30 +756,29 @@ form button {
    font-size: 15px;
    padding-bottom: 10px;
 } 
-form div>input {
-   width:30vh ;
+form div {
+   width:100% ;
 }
 form div>label {
     padding-bottom: 7px;
     font-size: 15px;
 }
 form div>textarea {
-    height: 100px;
-    width: 30vh; 
+    width: 100%; 
 }
 form button {
-    width: 17vh;
-    height: 50px;
+    width: 20vh;
     font-size: 15px;
-margin-left: 60px;
+margin-left: 0 auto;
+margin-right: 0 auto;
 
 }
 /*témoignage*/
 .temoignage {
     flex-wrap: wrap;
 }
-.temoignage3{
-    margin-top: 20px;
+.temoignage-trois{
+    margin-top: 25px;
 }
 /*footer*/
 .pied{
@@ -672,4 +796,116 @@ margin-left: 60px;
 .address{
     padding-right: 1px;
 }
+}
+
+@media all and (max-width:769px){
+    .bouton {
+        margin-top: 40%;
+        margin-left: 43%;
+        height: 20px;
+        width: 125px;
+        font-size: 1rem;
+        padding-right: 20px;
+    }
+    .image{
+        height: 65vh;
+    width: auto;
+    } 
+    .temoignage-deux{
+        padding-left: 5px;
+    }
+.pied{
+    font-size: 15px;
+    padding: 5px;
+}
+.service{
+    padding-right: 3px;
+}
+.compagnie{
+    padding-right: 3px;
+}
+.address{
+    padding-right: 3px;
+}
+}
+@media all and (max-width:649px){
+    .partenaire span {
+        text-align: center;
+        font-size: 32px;
+        padding-top: 20px;
+        font-weight: 700;
+    }
+    .partenaire p {
+        text-align: center;
+        font-size: 0.8rem;
+        padding-bottom: 35px;
+    }
+    .partenaire1 {
+        display: block;
+        margin-left:30%;
+
+    }
+    .logo2 {
+        height: 150px;
+        width: 150px;
+        margin-bottom: 20%;
+    }
+    .logo3 {
+        height: 150px;
+        width: 150px;
+        margin-bottom: 20%;
+    }
+    .logo1 {
+        height: 230px;
+        width: 200px;
+    }
+}
+@media all and (max-width:548px){
+    nav{
+        margin-right: auto;
+        
+    }
+    nav ul{
+        flex-direction: column;
+    }
+   nav a{
+     font-size:1rem ;
+   }
+   nav a:hover{
+    color: black;
+   }
+    .image{
+        height: 35vh;
+    width: auto;
+    } 
+    .partenaire span {
+        text-align: center;
+        font-size: 32px;
+        padding-top: 20px;
+        font-weight: 700;
+    }
+    .partenaire p {
+        text-align: center;
+        font-size: 0.8rem;
+        padding-bottom: 35px;
+    }
+    .partenaire1 {
+        display: block;
+        margin-left:30%;
+
+    }
+    .logo2 {
+        height: 150px;
+        width: 150px;
+        margin-bottom: 20%;
+    }
+    .logo3 {
+        height: 150px;
+        width: 150px;
+        margin-bottom: 20%;
+    }
+    .logo1 {
+        height: 230px;
+        width: 200px;
+    }
 }
