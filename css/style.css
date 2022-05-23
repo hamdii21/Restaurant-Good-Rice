@@ -363,7 +363,7 @@ nav li {
     align-items: center;
 } 
 
-.localisation span {
+.localisation h4{
     display: flex;
     justify-content: center;
     font-size: 30px;
@@ -371,6 +371,19 @@ nav li {
     font-weight: 700;
 
 }
+.partenaire h4:hover{
+    animation: hamdii 5s infinite alternate;
+}
+@keyframes hamdii{
+    from{
+        color: #131313;
+    }
+    to{
+        color: #DB4702;
+        transform: scale(2.2);
+    }
+}
+
 
 /* partie partenaire*/
 .partenaire {
@@ -380,7 +393,7 @@ nav li {
 }
 .partenaire h4 {
     display: flex;
-    text-align: center;
+  justify-content: center;
     font-size: 32px;
     padding-top: 20px;
     font-weight: 700;
@@ -459,7 +472,8 @@ form button {
 }
 /* partie témoignage */
 .section-temoignage span {
-    text-align: center;
+    display: flex;
+    justify-content: center;
     color: #DB4702;
     font-size: 32px;
     padding-top: 25px;
