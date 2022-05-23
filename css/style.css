@@ -82,7 +82,7 @@ nav li {
     display: flex;
     text-align: center;
     align-items: center;
-    position: relative;
+    position: absolute;
     margin-top: 40%;
     margin-left: 45%;
     border: 1px solid black;
@@ -395,7 +395,7 @@ nav li {
 }
 /* partie formulaire */
 .formulaire {
-    width: 100px;
+    width: 30px;
     margin-left:  auto;
     margin-right: auto;
     padding-top: 25px; 
@@ -406,7 +406,7 @@ form div {
     width: 70%;
 }
 form div>label {
-    padding-bottom: 8px;
+    padding-bottom: 7px;
     font-size: 18px;
 }
 form div>input,
