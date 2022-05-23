@@ -686,7 +686,7 @@ form div {
 
 @media all and  (max-width:1024px){
     .image{
-        height: 65vh;
+        height: 50vh;
     }
     .bouton {
         margin-top: 42%;
