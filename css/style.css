@@ -609,6 +609,21 @@ form div>textarea {
     background-color: #FFFBFA;
     border: 2px solid black;
 }
+
+form div {
+    width: 100%;
+}
+.formulaire{
+    width: 50%;
+}
+
+.formulaire p{
+    font-size:15px ;
+   padding-top: 5px;
+   padding-bottom: 10px;
+    
+}
+
 } 
 
 
