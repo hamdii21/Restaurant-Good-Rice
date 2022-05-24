@@ -371,7 +371,7 @@ nav li {
     font-weight: 700;
 
 }
-.partenaire h4:hover{
+.localisation h4:hover{
     animation: hamdii 5s infinite alternate;
 }
 @keyframes hamdii{
@@ -398,6 +398,20 @@ nav li {
     padding-top: 20px;
     font-weight: 700;
 }
+
+.partenaire h4:hover{
+    animation: hamdii 5s infinite alternate;
+}
+@keyframes hamdii{
+    from{
+        color: #131313;
+    }
+    to{
+        color: #DB4702;
+        transform: scale(2.2);
+    }
+}
+
 .partenaire p {
     text-align: center;
     font-size: 24px;
@@ -479,6 +493,19 @@ form button {
     padding-top: 25px;
     padding-bottom: 25px;
 }
+.section-temoignage span:hover{
+    animation: hamdii 5s infinite alternate;
+}
+@keyframes hamdii{
+    from{
+        color: #131313;
+    }
+    to{
+        color: #DB4702;
+        transform: scale(2.2);
+    }
+}
+
 .temoignage {
     display: flex;
     justify-content: space-around;
